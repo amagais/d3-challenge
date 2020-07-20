@@ -29,7 +29,7 @@ var margin = {
   var chosenYAxis = "healthcare";
   
   // Retrieve data from the CSV file and execute everything below
-  d3.csv("./assets/data/data.csv").then(function(data, err) {
+  d3.csv("/d3-challenge/assets/data/data.csv").then(function(data, err) {
     if (err) throw err;
   
     // parse data
